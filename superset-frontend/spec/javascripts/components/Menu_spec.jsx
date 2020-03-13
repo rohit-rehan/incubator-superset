@@ -73,7 +73,7 @@ const defaultProps = {
     ],
     brand: {
       path: '/superset/profile/admin/',
-      icon: '/static/assets/images/superset-logo@2x.png',
+      icon: '/static/assets/images/txinsights-logo.png',
       alt: 'Superset',
     },
     navbar_right: {
