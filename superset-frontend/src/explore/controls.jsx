@@ -2500,12 +2500,5 @@ export const controls = {
     description: t('Whether to normalize the histogram'),
     default: false,
   },
-  custom_class: {
-    type: 'TextControl',
-    label: t('Custom Class'),
-    renderTrigger: true,
-    default: '',
-    description: t('Add custom class to wrapper'),
-  },
 };
 export default controls;
