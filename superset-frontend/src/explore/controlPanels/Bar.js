@@ -33,6 +33,7 @@ export default {
         ['rich_tooltip', 'bar_stacked'],
         ['line_interpolation', 'show_controls'],
         ['bottom_margin'],
+        ['custom_class'],
       ],
     },
     {
