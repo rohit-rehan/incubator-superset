@@ -40,8 +40,14 @@ export default {
         ['color_scheme', 'label_colors'],
         ['show_legend', 'show_bar_value'],
         ['bar_stacked', 'order_bars'],
+        ['show_controls', 'custom_class'],
+      ],
+    },
+    {
+      label: t('Y Axis'),
+      expanded: true,
+      controlSetRows: [
         ['y_axis_format', 'y_axis_label'],
-        ['show_controls', null],
       ],
     },
     {
