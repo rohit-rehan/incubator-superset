@@ -570,6 +570,13 @@ export const controls = {
         'or side by side.',
     ),
   },
+  custom_class: {
+    type: 'TextControl',
+    label: t('Custom Class'),
+    renderTrigger: true,
+    default: false,
+    description: t('Add custom class to wrapper'),
+  },
 
   reduce_x_ticks: {
     type: 'CheckboxControl',
