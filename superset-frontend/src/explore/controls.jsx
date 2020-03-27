@@ -574,7 +574,7 @@ export const controls = {
     type: 'TextControl',
     label: t('Custom Class'),
     renderTrigger: true,
-    default: false,
+    default: '',
     description: t('Add custom class to wrapper'),
   },
 

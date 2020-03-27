@@ -227,10 +227,10 @@ class ChartRenderer extends React.Component {
     // When migrating charts, we should gradually add a `superset-chart-` prefix
     // to each one of them.
     const snakeCaseVizType = snakeCase(vizType);
-    const chartClassName =
-      vizType === 'table'
-        ? `superset-chart-${snakeCaseVizType}`
-        : snakeCaseVizType;
+    const chartClassName = (typeof(formData.custom_class) === 'undefined' ? '' : formData.custom_class) + ' ' +
+        (vizType === 'table'
+          ? `superset-chart-${snakeCaseVizType}`
+          : snakeCaseVizType);
 
     return (
       <>
