@@ -146,9 +146,11 @@ header {
 
 
 .f16 .us{ position:relative; top:4px;}
-
-
-
+.panel-title span {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
 
 @media (max-width: 767px) {
 .navbar-inverse {
@@ -169,9 +171,8 @@ header {
 .navbar {
 	.caret {
 		display: inline-block;
-		left: 5px;
 		position: relative;
-		top: -14px;
+		top: -2px;
 	}
 }
 .navbar-inverse {
@@ -189,14 +190,12 @@ header {
 .navbar-nav {
 	float: none;
 }
-.panel {
-	.table-responsive {
-		width: 400px;
-	}
-}
+.panel .table-responsive{ display:block}
 .panel.panel-primary {
 	width: 400px;
 }
 
+
+.navbar-inverse .navbar-toggle .icon-bar{ background:#fff;}
 
 }
