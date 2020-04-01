@@ -45,6 +45,7 @@ export default {
             },
           },
         ],
+        ['custom_class'],
       ],
     },
     NVD3TimeSeries[1],

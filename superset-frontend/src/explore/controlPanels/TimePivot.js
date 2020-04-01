@@ -33,6 +33,7 @@ export default {
       controlSetRows: [
         ['show_legend', 'line_interpolation'],
         ['color_picker', null],
+        ['custom_class'],
       ],
     },
     {

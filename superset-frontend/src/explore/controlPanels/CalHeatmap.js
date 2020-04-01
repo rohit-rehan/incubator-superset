@@ -40,6 +40,7 @@ export default {
         ['y_axis_format', 'x_axis_time_format'],
         ['show_legend', 'show_values'],
         ['show_metric_name', null],
+        ['custom_class'],
       ],
     },
   ],

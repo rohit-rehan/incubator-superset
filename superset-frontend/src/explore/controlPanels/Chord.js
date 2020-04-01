@@ -38,6 +38,7 @@ export default {
       controlSetRows: [
         ['y_axis_format', null],
         ['color_scheme', 'label_colors'],
+        ['custom_class'],
       ],
     },
   ],

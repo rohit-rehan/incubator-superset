@@ -36,6 +36,7 @@ export default {
         ['partition_limit', 'partition_threshold'],
         ['log_scale', 'equal_date_size'],
         ['rich_tooltip'],
+        ['custom_class'],
       ],
     },
     NVD3TimeSeries[1],

@@ -78,6 +78,7 @@ export default {
           },
         ],
         ['color_scheme', 'label_colors'],
+        ['custom_class'],
       ],
     },
   ],

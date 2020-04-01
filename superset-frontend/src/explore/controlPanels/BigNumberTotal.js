@@ -33,7 +33,7 @@ export default {
     {
       label: t('Chart Options'),
       expanded: true,
-      controlSetRows: [['header_font_size'], ['subheader_font_size']],
+      controlSetRows: [['header_font_size'], ['subheader_font_size'], ['custom_class']],
     },
   ],
   controlOverrides: {

@@ -33,6 +33,7 @@ export default {
         ['ranges', 'range_labels'],
         ['markers', 'marker_labels'],
         ['marker_lines', 'marker_line_labels'],
+        ['custom_class'],
       ],
     },
   ],

@@ -37,6 +37,7 @@ export default {
         ['color_scheme', 'label_colors'],
         ['treemap_ratio'],
         ['number_format'],
+        ['custom_class'],
       ],
     },
   ],

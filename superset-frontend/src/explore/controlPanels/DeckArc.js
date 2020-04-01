@@ -56,6 +56,11 @@ export default {
         ['js_onclick_href'],
       ],
     },
+    {
+      label: t('Chart Options'),
+      expanded: true,
+      controlSetRows: [['custom_class']],
+    },
   ],
   controlOverrides: {
     dimension: {

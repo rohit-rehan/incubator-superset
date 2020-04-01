@@ -31,6 +31,7 @@ export default {
         ['prefix_metric_with_slice_name', null],
         ['show_legend', 'show_markers'],
         ['line_interpolation', null],
+        ['custom_class'],
       ],
     },
     {

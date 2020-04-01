@@ -32,7 +32,7 @@ export default {
         ['show_brush', 'show_legend', 'show_bar_value'],
         ['rich_tooltip', 'bar_stacked'],
         ['line_interpolation', 'show_controls'],
-        ['bottom_margin'],
+        ['bottom_margin', 'custom_class'],
       ],
     },
     {

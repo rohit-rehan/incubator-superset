@@ -32,6 +32,7 @@ export default {
         ['line_interpolation', 'stacked_style'],
         ['color_scheme', 'label_colors'],
         ['rich_tooltip', 'show_controls'],
+        ['custom_class'],
       ],
     },
     {

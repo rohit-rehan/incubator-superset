@@ -38,6 +38,7 @@ export default {
         ['donut', 'show_legend'],
         ['show_labels', 'labels_outside'],
         ['color_scheme', 'label_colors'],
+        ['custom_class'],
       ],
     },
   ],

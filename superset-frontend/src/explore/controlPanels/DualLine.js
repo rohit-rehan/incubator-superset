@@ -26,7 +26,11 @@ export default {
     {
       label: t('Chart Options'),
       expanded: true,
-      controlSetRows: [['color_scheme', 'label_colors'], ['x_axis_format']],
+      controlSetRows: [
+        ['color_scheme', 'label_colors'],
+        ['x_axis_format'],
+        ['custom_class'],
+      ],
     },
     {
       label: t('Y Axis 1'),

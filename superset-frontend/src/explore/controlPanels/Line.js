@@ -32,6 +32,7 @@ export default {
         ['show_brush', 'send_time_range', 'show_legend'],
         ['rich_tooltip', 'show_markers'],
         ['line_interpolation'],
+        ['custom_class'],
       ],
     },
     {

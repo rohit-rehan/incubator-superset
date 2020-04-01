@@ -31,6 +31,7 @@ export default {
       controlSetRows: [
         ['color_scheme', 'label_colors'],
         ['whisker_options', 'x_ticks_layout'],
+        ['custom_class'],
       ],
     },
   ],

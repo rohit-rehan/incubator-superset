@@ -40,6 +40,7 @@ export default {
       controlSetRows: [
         ['color_scheme', 'label_colors'],
         ['show_legend', null],
+        ['custom_class'],
       ],
     },
     {

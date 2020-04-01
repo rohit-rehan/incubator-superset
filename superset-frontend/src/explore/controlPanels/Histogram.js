@@ -40,6 +40,7 @@ export default {
         ['x_axis_label', 'y_axis_label'],
         ['global_opacity'],
         ['normalized'],
+        ['custom_class'],
       ],
     },
   ],

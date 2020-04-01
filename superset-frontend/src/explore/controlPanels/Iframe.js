@@ -22,7 +22,7 @@ export default {
   controlPanelSections: [
     {
       label: t('Options'),
-      controlSetRows: [['url']],
+      controlSetRows: [['url'], ['custom_class']],
     },
   ],
   sectionOverrides: {

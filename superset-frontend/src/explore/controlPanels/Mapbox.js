@@ -29,6 +29,7 @@ export default {
         ['row_limit'],
         ['adhoc_filters'],
         ['groupby'],
+        ['custom_class'],
       ],
     },
     {

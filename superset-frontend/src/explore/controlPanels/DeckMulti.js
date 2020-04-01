@@ -34,5 +34,10 @@ export default {
       expanded: true,
       controlSetRows: [['adhoc_filters']],
     },
+    {
+      label: t('Chart Options'),
+      expanded: true,
+      controlSetRows: [['custom_class']],
+    },
   ],
 };
