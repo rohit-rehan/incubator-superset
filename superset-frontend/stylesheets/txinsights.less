@@ -1,6 +1,12 @@
 body {
 	background: #fff;
 }
+header {
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 12px 0px #b9b5b5;
+    top: -3px;
+    position: relative;
+}
 .navbar-nav {
 	float: left;
 	margin: 0px 0px 0px 50px;
@@ -21,6 +27,7 @@ input.btn.btn-primary.btn-block {
 					-moz-transition: background-color 2s ease-out;
 					-o-transition: background-color 2s ease-out;
 					transition: background-color 2s ease-out;
+					background: #f9f9f9;
 				}
 				&:focus {
 					border-bottom: 3px solid #007bff;
@@ -59,7 +66,7 @@ input.btn.btn-primary.btn-block {
 	}
 }
 .panel.panel-primary {
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid #d6d6d6;
 	margin-top: 20px;
 }
@@ -121,12 +128,12 @@ a {
 }
 header {
 	margin-bottom: 30px;
-	box-shadow: 0px 0px 20px 0px #b9b5b5;
+	box-shadow: 0px 0px 12px 0px #b9b5b5;
 }
 .navbar {
 	position: relative;
 	min-height: 50px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 .panel-title {
 	span {
@@ -143,9 +150,28 @@ header {
 	}
 }
 
+.f16 {
+	.us {
+		position: relative;
+		top: 4px;
+	}
+}
+.panel-title {
+	span {
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+}
+.navbar {
+	.caret {
+		display: inline-block;
+		padding: 0 5px 22px 5px;
+	}
+}
 
 
-.f16 .us{ position:relative; top:4px;}
+
 
 
 
@@ -159,8 +185,8 @@ header {
 	}
 }
 .navbar-toggle {
-	background-color: #e8e8e8;
-	top:5px;
+	background-color: #e8e8e8 !important;
+	top:0px;
 }
 .navbar-nav {
 	margin: 0px;
@@ -169,9 +195,8 @@ header {
 .navbar {
 	.caret {
 		display: inline-block;
-		left: 5px;
 		position: relative;
-		top: -14px;
+		top: -2px;
 	}
 }
 .navbar-inverse {
@@ -189,14 +214,54 @@ header {
 .navbar-nav {
 	float: none;
 }
+
 .panel {
 	.table-responsive {
-		width: 400px;
+		display: block;
 	}
 }
 .panel.panel-primary {
 	width: 400px;
 }
+.navbar-inverse {
+	.navbar-toggle {
+		.icon-bar {
+			background: #fff;
+		}
+	}
+}
 
+.navbar-inverse {
+	.navbar-toggle {
+		&:hover {
+			background-color: #1651b3;
+		}
+		&:focus {
+			background-color: #1651b3;
+		}
+	}
+}
+a {
+	img.react-gravatar {
+		a img.react-gravatar{ width: 50%;
+		margin: auto;
+		display: table;
+		position: relative;
+		top: 30px;
+	}
+}
+.navbar-brand{ padding:10px;}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-nav {
+	float: none;
+	margin: 0px;
+}
+.navbar-right {
+	float: left !important;
+	margin: 0px
+}
 
 }
