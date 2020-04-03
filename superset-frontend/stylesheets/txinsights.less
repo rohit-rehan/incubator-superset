@@ -1,6 +1,28 @@
 body {
 	background: #fff;
 }
+.dropdown-menu {
+	>li {
+		>a {
+			&:hover {
+				background-color: #236bf0;
+			}
+			&:focus {
+				background-color: #236bf0;
+			}
+		}
+	}
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li.active > a {
+    background: transparent;
+    border-bottom: 3px solid #236bf0;
+    margin-bottom: -3px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #ffffff;
+    font-weight: 700;
+    border-top: 3px solid #236bf0;
+}
 
 header {
 	margin-bottom: 30px;
@@ -292,4 +314,4 @@ a {
 		float: left !important;
 		margin: 0px;
 	}
-}
+
